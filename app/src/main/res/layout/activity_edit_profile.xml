@@ -86,15 +86,15 @@
         android:id="@+id/tv_change"
         />
 
-    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/fullname"
+        android:id="@+id/fullnamee"
         android:hint="FullName"
 
         />
-    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -102,7 +102,7 @@
         android:id="@+id/username"
 
         />
-    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

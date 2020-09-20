@@ -1,6 +1,7 @@
 package com.example.myinsta.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
@@ -20,9 +21,11 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.myinsta.Adapter.MyFotosAdapter;
+import com.example.myinsta.EditProfileActivity;
 import com.example.myinsta.Model.Post;
 import com.example.myinsta.Model.Users;
 import com.example.myinsta.R;
+import com.example.myinsta.StartActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -121,9 +124,10 @@ public class profileFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 String btn=edit_profile.getText().toString();
-                if (btn.equals("Edit Profile"));
-                    //go Editprofile
-
+                if (btn.equals("Edit Profile"))
+                {
+                    startActivity(new Intent(getContext(), EditProfileActivity.class));
+                }
                 else if(btn.equals("follow")){
                     FirebaseDatabase.getInstance().getReference().child("Follow").child(firebaseUser.getUid())
                             .child("following").child(profileid).setValue(true);
