@@ -22,6 +22,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.example.myinsta.Adapter.MyFotosAdapter;
 import com.example.myinsta.EditProfileActivity;
+import com.example.myinsta.FollowersActivity;
 import com.example.myinsta.Model.Post;
 import com.example.myinsta.Model.Users;
 import com.example.myinsta.R;
@@ -64,7 +65,7 @@ public class profileFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =inflater.inflate(R.layout.fragment_profile, container, false);
@@ -163,6 +164,26 @@ public class profileFragment extends Fragment {
            }
        });
 
+       followers.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent=new Intent(getContext(), FollowersActivity.class);
+               intent.putExtra("id",profileid);
+               intent.putExtra("title","followers");
+               startActivity(intent);
+           }
+       });
+
+        following.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getContext(), FollowersActivity.class);
+                intent.putExtra("id",profileid);
+                intent.putExtra("title","following");
+                startActivity(intent);
+            }
+        });
+
         return view ;
 
     }
@@ -173,7 +194,7 @@ public class profileFragment extends Fragment {
         HashMap<String,Object> hashMap=new HashMap<>();
 
         hashMap.put("userid",firebaseUser.getUid());
-        hashMap.put("text","started folloeing you ");
+        hashMap.put("text","started following you ");
         hashMap.put("postid","");
         hashMap.put("ispost",false);
 

@@ -17,6 +17,7 @@
         android:orientation="vertical"
         android:layout_centerVertical="true"
         android:layout_marginLeft="@android:dimen/app_icon_size"
+
         >
 
 

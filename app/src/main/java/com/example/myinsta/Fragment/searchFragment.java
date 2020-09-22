@@ -58,7 +58,7 @@ public class searchFragment extends Fragment {
 
         musers=new ArrayList<>();
 
-        userAdapter=new UserAdapter(getContext(),musers);
+        userAdapter=new UserAdapter(getContext(),musers,true);
         recyclerView.setAdapter(userAdapter);
 
         readuser();
