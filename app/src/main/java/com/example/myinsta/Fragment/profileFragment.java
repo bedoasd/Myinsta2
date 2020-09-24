@@ -25,6 +25,7 @@ import com.example.myinsta.EditProfileActivity;
 import com.example.myinsta.FollowersActivity;
 import com.example.myinsta.Model.Post;
 import com.example.myinsta.Model.Users;
+import com.example.myinsta.OptionsActivity;
 import com.example.myinsta.R;
 import com.example.myinsta.StartActivity;
 import com.google.firebase.auth.FirebaseAuth;
@@ -144,6 +145,15 @@ public class profileFragment extends Fragment {
                     FirebaseDatabase.getInstance().getReference().child("Follow").child(profileid)
                             .child("followers").child(firebaseUser.getUid()).removeValue();
                 }
+            }
+        });
+
+        options.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getContext(), OptionsActivity.class);
+                startActivity(intent);
+
             }
         });
 
