@@ -1,6 +1,9 @@
 package com.example.myinsta.Adapter;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.myinsta.AddStoryActivity;
 import com.example.myinsta.Model.Story;
 import com.example.myinsta.Model.Users;
 import com.example.myinsta.R;
+import com.example.myinsta.StoryActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -49,7 +54,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
 
-        Story story=mStory.get(position);
+        final Story story=mStory.get(position);
 
         userInfo(holder,story.getUserid(),position);
 
@@ -67,7 +72,9 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
                     myStory(holder.addstory_text,holder.story_plus,true);
                 }
                 else{
-                    //todo goto story
+                    Intent intent=new Intent(mcontext, StoryActivity.class);
+                    intent.putExtra("userid",story.getUserid());
+                    mcontext.startActivity(intent);
                 }
             }
         });
@@ -114,6 +121,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
                 Glide.with(mcontext).load(users.getImageurl()).into(viewHolder.story_photo);
                 if(pos!=0){
                     Glide.with(mcontext).load(users.getImageurl()).into(viewHolder.story_seen);
+                    viewHolder.username_story.setText(users.getUsername());
 
                 }
             }
@@ -130,7 +138,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
+            public void onDataChange(@NonNull final DataSnapshot snapshot) {
                 int count =0;
                 long timecurrent=System.currentTimeMillis();
                 for (DataSnapshot snapshot1:snapshot.getChildren()){
@@ -141,8 +149,34 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.ViewHolder> 
                     }
                 }
                 if (click){
-                    //todo goto dialog
-                }else {
+                    if(count>0){
+                        AlertDialog alertDialog=new AlertDialog.Builder(mcontext).create();
+                        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "View Story",
+                                new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        Intent intent=new Intent(mcontext, StoryActivity.class);
+                                        intent.putExtra("userid",FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                        mcontext.startActivity(intent);
+                                        dialogInterface.dismiss();
+                                    }
+                                });
+                        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Add Story",
+                                new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        Intent intent=new Intent(mcontext, AddStoryActivity.class);
+                                        mcontext.startActivity(intent);
+                                        dialogInterface.dismiss();
+                                    }
+                                });
+                        alertDialog.show();
+                    }else{
+                        Intent intent=new Intent(mcontext, AddStoryActivity.class);
+                        mcontext.startActivity(intent);
+                    }
+                }
+                else {
                     if(count>0){
                         textView.setText("My Story");
                         imageView.setVisibility(View.GONE);

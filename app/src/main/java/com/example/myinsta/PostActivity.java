@@ -97,7 +97,8 @@ public class PostActivity extends AppCompatActivity {
             UploadTask.continueWithTask(new Continuation() {
                 @Override
                 public Object then(@NonNull Task task) throws Exception {
-                    if (!task.isSuccessful()){ throw task.getException(); }
+                    if (!task.isSuccessful()){
+                        throw task.getException(); }
 
 
                     return filereference.getDownloadUrl();
@@ -105,7 +106,8 @@ public class PostActivity extends AppCompatActivity {
             }).addOnCompleteListener(new OnCompleteListener<Uri>() {
                 @Override
                 public void onComplete(@NonNull Task<Uri> task) {
-                       if (task.isSuccessful()) {
+                       if (task.isSuccessful())
+                       {
 
                            Uri downloaduri = task.getResult();
                            myUri = downloaduri.toString();
