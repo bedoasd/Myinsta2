@@ -74,12 +74,38 @@ public class FollowersActivity extends AppCompatActivity {
                 getFollowers();
                  break;
 
+
+            case "views" :
+                getViews();
+                break;
+
+
         }
 
 
 
     }
 
+    private void getViews(){
+        DatabaseReference reference=FirebaseDatabase.getInstance().getReference("Story")
+                .child(id).child(getIntent().getStringExtra("storyid")).child("views");
+        reference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                idlist.clear();
+                for(DataSnapshot snapshot1: snapshot.getChildren()){
+                    idlist.add(snapshot1.getKey());
+
+                }
+                ShowUsers();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
 
     private void getLikes() {
         DatabaseReference reference= FirebaseDatabase.getInstance().getReference("likes")
@@ -147,27 +173,7 @@ public class FollowersActivity extends AppCompatActivity {
         });
     }
 
-   /* private void getFollowers(){
 
-        DatabaseReference reference= FirebaseDatabase.getInstance().getReference("Follow")
-                .child(id).child("followers");
-        reference.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                idlist.clear();
-                for(DataSnapshot snapshot1:snapshot.getChildren()){
-                    idlist.add(snapshot1.getKey());
-                }
-                ShowUsers();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-
-    }*/
 
 
     private void ShowUsers(){

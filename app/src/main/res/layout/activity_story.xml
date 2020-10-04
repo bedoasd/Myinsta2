@@ -6,14 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".StoryActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/img"
-        android:src="@drawable/plceholder"
-        android:scaleType="centerCrop"
-        />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,11 +13,18 @@
         >
 
         <View
+            android:id="@+id/skip"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/skip"
-            />
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop" />
 
         <View
             android:id="@+id/reverse"
@@ -70,5 +69,47 @@
 
     </RelativeLayout>
 
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/r_seen"
+        android:padding="3dp"
+        android:layout_margin="10dp"
+        android:background="#20000000">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_story_view"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/seen_number"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_story_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:id="@+id/story_delet"
+        android:padding="3dp"
+        android:background="#20000000"
+        />
 
 </RelativeLayout>
