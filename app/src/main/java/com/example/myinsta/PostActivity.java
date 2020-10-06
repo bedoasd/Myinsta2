@@ -51,7 +51,7 @@ public class PostActivity extends AppCompatActivity {
         close=findViewById(R.id.close);
         image_added=findViewById(R.id.image_added);
         post=findViewById(R.id.post);
-        descriptionn=findViewById(R.id.description);
+        descriptionn=findViewById(R.id.description_post);
 
         storageReference= FirebaseStorage.getInstance().getReference("posts");
 

@@ -344,9 +344,10 @@ public class profileFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for(DataSnapshot snapshot : dataSnapshot.getChildren()){
                         mysaves.add(snapshot.getKey());
-
                 }
+
                         readSaves();
+
             }
 
             @Override
@@ -369,7 +370,7 @@ public class profileFragment extends Fragment {
                     for(String id : mysaves)
                     {
 
-                        if(post.getPostimage().equals(id))
+                        if(post.getPostid().equals(id))
                         {
                                 postList_saves.add(post);
                         }
