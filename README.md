@@ -38,7 +38,7 @@ And here some images that hold more explanation
  ![Screenshot_2020-10-11-03-14-17-10_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245783-977eb400-a769-11eb-8af8-620b7580152f.jpg)
 
  
- 7-Storyyyyyyyy❤❤❤❤❤
+ 7-Storyyyyyyyy  and u can see who watch ur story ❤❤❤❤❤
  
  ![Screenshot_2020-10-11-03-13-45-86_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245951-cd239d00-a769-11eb-8d2e-98de7a5b298c.jpg)
 
@@ -53,7 +53,7 @@ And here some images that hold more explanation
 ![Screenshot_2020-10-11-03-15-49-84_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246324-2c81ad00-a76a-11eb-87fa-89bb45d2c52b.jpg)
 ![Screenshot_2020-10-11-03-15-44-85_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246325-2d1a4380-a76a-11eb-9a78-bc6ff15fb950.jpg)
 
-10- Notification and u can see who watch ur story❤❤❤❤❤❤❤
+10- Notification❤❤❤❤❤❤❤
 
 ![Screenshot (8)](https://user-images.githubusercontent.com/44526915/116246951-b5004d80-a76a-11eb-9bd5-d0531894eaa5.png)
  
