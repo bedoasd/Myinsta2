@@ -10,6 +10,6 @@ And here some images that hold more explanation
 
 1-Registeration and login screens
 
-![1](https://user-images.githubusercontent.com/44526915/116241766-8cc22000-a765-11eb-91db-4b778322e01c.jpg)
-![2](https://user-images.githubusercontent.com/44526915/116242119-e4f92200-a765-11eb-9553-3b216b96e934.jpg)
+![1](https://user-images.githubusercontent.com/44526915/116243701-82088a80-a767-11eb-8de3-716c1e97bba8.jpg)
+![2](https://user-images.githubusercontent.com/44526915/116243703-82a12100-a767-11eb-8c20-a338cdeabc8b.jpg)
 
