@@ -42,13 +42,16 @@ And here some images that hold more explanation
  
  ![Screenshot_2020-10-11-03-13-45-86_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245951-cd239d00-a769-11eb-8d2e-98de7a5b298c.jpg)
 
-8-Profile and edit profile screen
+8-Profile and edit profile screen that hold your posts and saved posts
 
 ![Screenshot_2020-10-11-03-15-36-30_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246055-e6c4e480-a769-11eb-90c7-f577881ce903.jpg)
 ![Screenshot_2020-10-11-03-15-40-54_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246061-e7f61180-a769-11eb-9b22-d8fdac9759fd.jpg)
+![Screenshot_2020-10-11-03-15-53-80_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246482-52a74d00-a76a-11eb-9761-cf94962434b3.jpg)
 
 9- Following And Followers screen that work as dasgboard for ur account
 
-![Screenshot_2020-10-11-03-15-44-85_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246160-04924980-a76a-11eb-9cf4-697d8f217800.jpg)
-![Uploading Screenshot_2020-10-11-03-15-49-84_4f1f5d653b14b9730e31f4ced17a8023.jpg…]()
+![Screenshot_2020-10-11-03-15-49-84_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246324-2c81ad00-a76a-11eb-87fa-89bb45d2c52b.jpg)
+![Screenshot_2020-10-11-03-15-44-85_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246325-2d1a4380-a76a-11eb-9a78-bc6ff15fb950.jpg)
+
+10-
 
