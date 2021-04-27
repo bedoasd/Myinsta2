@@ -17,7 +17,13 @@ And here some images that hold more explanation
 
 ![3](https://user-images.githubusercontent.com/44526915/116243800-9cdaff00-a767-11eb-99b6-8e12f8dae0dd.jpg)
  
-3-Selection post screen tahat u can choose any mage and u can make editting onn  it then u can post 
+3-Selection post screen tahat u can choose any mage and u can make editting on  it then u can post 
 
 ![4](https://user-images.githubusercontent.com/44526915/116244027-d01d8e00-a767-11eb-8994-734a084bc6be.jpg)
 ![5](https://user-images.githubusercontent.com/44526915/116244056-d7449c00-a767-11eb-866a-ea9ba1a7313d.jpg)
+
+4- U can edit ur post as u like after postng
+
+![6](https://user-images.githubusercontent.com/44526915/116244374-2985bd00-a768-11eb-8132-b30be195212c.jpg)
+![7](https://user-images.githubusercontent.com/44526915/116244378-2a1e5380-a768-11eb-87ad-14d8817e043c.jpg)
+![8](https://user-images.githubusercontent.com/44526915/116244380-2a1e5380-a768-11eb-9a68-6b91bff37d05.jpg)
