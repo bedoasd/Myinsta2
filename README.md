@@ -38,5 +38,13 @@ And here some images that hold more explanation
  ![Screenshot_2020-10-11-03-14-17-10_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245783-977eb400-a769-11eb-8af8-620b7580152f.jpg)
 
  
- 7-
+ 7-Storyyyyyyyy❤❤❤❤❤
+ 
+ ![Screenshot_2020-10-11-03-13-45-86_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245951-cd239d00-a769-11eb-8d2e-98de7a5b298c.jpg)
+
+8-Profile and edit profile screen
+
+![Screenshot_2020-10-11-03-15-36-30_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246055-e6c4e480-a769-11eb-90c7-f577881ce903.jpg)
+![Screenshot_2020-10-11-03-15-40-54_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246061-e7f61180-a769-11eb-9b22-d8fdac9759fd.jpg)
+
 
