@@ -53,5 +53,15 @@ And here some images that hold more explanation
 ![Screenshot_2020-10-11-03-15-49-84_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246324-2c81ad00-a76a-11eb-87fa-89bb45d2c52b.jpg)
 ![Screenshot_2020-10-11-03-15-44-85_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246325-2d1a4380-a76a-11eb-9a78-bc6ff15fb950.jpg)
 
-10-
+10- Notification ❤❤❤❤❤❤❤
+
+![Screenshot (8)](https://user-images.githubusercontent.com/44526915/116246951-b5004d80-a76a-11eb-9bd5-d0531894eaa5.png)
+ 
+11- profile of any user that u r following him
+
+
+![Screenshot (4)](https://user-images.githubusercontent.com/44526915/116247579-48d21980-a76b-11eb-9a3b-6e504c9879c5.png)
+![Screenshot (5)](https://user-images.githubusercontent.com/44526915/116247666-61423400-a76b-11eb-9fcf-0a5985c4391b.png)
+
+
 
