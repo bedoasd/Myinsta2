@@ -47,4 +47,8 @@ And here some images that hold more explanation
 ![Screenshot_2020-10-11-03-15-36-30_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246055-e6c4e480-a769-11eb-90c7-f577881ce903.jpg)
 ![Screenshot_2020-10-11-03-15-40-54_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246061-e7f61180-a769-11eb-9b22-d8fdac9759fd.jpg)
 
+9- Following And Followers screen that work as dasgboard for ur account
+
+![Screenshot_2020-10-11-03-15-44-85_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116246160-04924980-a76a-11eb-9cf4-697d8f217800.jpg)
+![Uploading Screenshot_2020-10-11-03-15-49-84_4f1f5d653b14b9730e31f4ced17a8023.jpg…]()
 
