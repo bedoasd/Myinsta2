@@ -32,9 +32,11 @@ And here some images that hold more explanation
 
 ![Screenshot_2020-10-11-03-13-55-11_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116244795-8e411780-a768-11eb-822a-35965f44a355.jpg)
 
-6-dssadsadsa 
+6-search by name on any user and u can follow or unfollow him
 
+![Screenshot_2020-10-11-03-14-14-22_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245584-68684280-a769-11eb-9c09-3000c59ebb83.jpg)
+ ![Screenshot_2020-10-11-03-14-17-10_4f1f5d653b14b9730e31f4ced17a8023](https://user-images.githubusercontent.com/44526915/116245783-977eb400-a769-11eb-8af8-620b7580152f.jpg)
 
-![Screenshot 8](https://user-images.githubusercontent.com/44526915/116245426-3eaf1b80-a769-11eb-8162-250cfedf5c87.jpg)
-
+ 
+ 7-
 
